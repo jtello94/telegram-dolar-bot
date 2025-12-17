@@ -6,7 +6,7 @@ from datetime import datetime, timezone
 from zoneinfo import ZoneInfo
 
 # TOKEN DEL BOT
-TOKEN = os.environ[TELEGRAM_BOT_TOKEN]
+TOKEN = os.environ['TELEGRAM_BOT_TOKEN']
 
 # URL DE LA API A CONSUMIR
 URL = "https://dolarapi.com/v1/dolares"
