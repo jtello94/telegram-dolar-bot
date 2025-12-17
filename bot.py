@@ -5,8 +5,6 @@ from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes
 from datetime import datetime, timezone
 from zoneinfo import ZoneInfo
 
-"TOKEN 8415369582:AAHR2k-2-L7Zqn_Zgjjmf_LGB29mlgw2d_E"
-
 # TOKEN DEL BOT
 TOKEN = os.environ["TELEGRAM_BOT_TOKEN"]
 
